@@ -4,7 +4,7 @@ import rsa
 public_key, private_key = rsa.newkeys(2048)
 
 # الرسالة التي نريد تشفيرها
-message = "follow esefkh740_ insta"
+message = "put your text here follow me in instagram esefkh740_"
 
 # قم بتشفير الرسالة باستخدام المفتاح العام
 encrypted_message = rsa.encrypt(message.encode(), public_key)
